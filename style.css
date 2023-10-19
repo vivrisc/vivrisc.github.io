@@ -22,14 +22,14 @@ body{
 
 .home{
   background-color: var(--bg-color);
-  background-image: url('assets/_DSC6504_50prozenttransperenz.png');
+  background-image: url('assets/0_DSC6504_50prozenttransperenz.png');
   background-size: cover;
   background-attachment: fixed;
 }
 
 .about-bg {
   background-color: var(--bg-color);
-  background-image: url('assets/_DSC6511_50prozenttransperenz.png');  
+  background-image: url('assets/0_DSC6511_50prozenttransperenz.png');  
   background-size: cover;
   background-attachment: fixed;
 }
