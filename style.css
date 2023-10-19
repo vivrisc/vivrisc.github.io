@@ -166,6 +166,19 @@ h2{
 
 }
 
+.right-img{
+  overflow: hidden;
+  background: url("assets/Haptik_Analog-turn_April_2023-02.jpg") no-repeat;
+  background-size: cover;
+  background-position-x: -67px;
+  border-radius: 20px;
+
+}
+
+.flexbox{
+  display: flex;
+}
+
 .long-txt{
   display: grid;
 }
@@ -419,6 +432,13 @@ footer {
     margin: 0 10vw 0 80px;
     gap: 3vw;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .right-img{
+    position: absolute;
+    width: clamp(480px, 15vw, 500px);
+    height: clamp(420px, 45vh, 700px);
+    margin: 5vh 0px 0 50vw;
   }
     
   /* Cards */
